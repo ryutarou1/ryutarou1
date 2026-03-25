@@ -1,57 +1,52 @@
-# Hi there! 👋
+# Ryutaro Kanno
 
-**Ryutaro Kanno** - Python Engineer based in Tokyo, Japan
+**Full-stack developer building AI-powered products.**
 
-## About Me
+I ship fast — 5 deployed products in 4 months, all built with AI-assisted development (Claude Code).
 
-業務効率化・AI活用ツールの開発を行っています。
-機械学習からWebスクレイピング、Excel VBAまで幅広く対応。
+## What I Build
 
-## Skills
+### [FormCheck AI](https://formcheck-ai.vercel.app) — Real-time exercise form checker
+AI-powered pose estimation that runs **entirely in the browser** — $0 server cost.
+- **Stack**: Next.js 16, TypeScript, MediaPipe Pose, Tailwind CSS
+- **Features**: Real-time skeleton overlay, rep counting, form scoring, voice feedback
+- **Architecture**: One Euro Filter smoothing, hysteresis FSM, body-normalized scoring
 
-**Languages**
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![VBA](https://img.shields.io/badge/-VBA-217346?style=flat-square&logo=microsoft-excel&logoColor=white)
-![HTML/CSS](https://img.shields.io/badge/-HTML%2FCSS-E34F26?style=flat-square&logo=html5&logoColor=white)
+### [Dance Mirror](https://dance-mirror-chi.vercel.app) — TikTok dance practice app
+Learn dances by comparing your poses against reference choreography in real-time.
+- **Stack**: Next.js 16, MediaPipe, DTW (Dynamic Time Warping), Zustand, Dexie (IndexedDB)
+- **Key tech**: Hybrid scoring (60% joint angles + 40% cosine similarity), body normalization (hip-centered + shoulder-width scaling)
 
-**Machine Learning**
-![LightGBM](https://img.shields.io/badge/-LightGBM-02569B?style=flat-square)
-![scikit-learn](https://img.shields.io/badge/-scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
-![Optuna](https://img.shields.io/badge/-Optuna-000000?style=flat-square)
+### Claude Mobile — Claude Code web UI for iPhone
+Custom web interface to run Claude Code from mobile via Tailscale VPN.
+- **Stack**: Python aiohttp, WebSocket, PTY, xterm.js, LINE Bot
+- **Why**: Built my own dev environment so I can code from anywhere
 
-**Tools & Frameworks**
-![OpenAI](https://img.shields.io/badge/-OpenAI%20API-412991?style=flat-square&logo=openai&logoColor=white)
-![Flask](https://img.shields.io/badge/-Flask-000000?style=flat-square&logo=flask&logoColor=white)
-![WordPress](https://img.shields.io/badge/-WordPress-21759B?style=flat-square&logo=wordpress&logoColor=white)
+### Multi-Agent Prediction System
+8-agent parallel analysis architecture for sports prediction with cross-validation.
+- **Stack**: Python, LightGBM, Claude Code orchestration
+- **Scale**: 1,717-race backtest, v2.2 scoring system with 12 iterative improvements
+- **Design**: Each agent has a specialized role; parent agent performs contradiction checking
 
-## Featured Projects
+## Tech Stack
 
-### 🏇 競馬AI予測システム
-機械学習（LightGBM）を使用した地方競馬の勝率予測システム
-- **技術**: Python, LightGBM, Optuna, pandas
-- **成果**: バックテストでROI 287%達成
-- **特徴量**: 80以上の特徴量（血統、調教、騎手、展開予測など）
+**Frontend**: Next.js 16 / React 19 / TypeScript / Tailwind CSS v4 / Zustand
 
-### 🛒 ヤフオク出品効率化ツール
-GPT-4 Visionで商品画像から出品情報を自動生成
-- **技術**: Python, OpenAI GPT-4 Vision, Flask
-- **成果**: 作業時間を1/10に短縮（5分→30秒/商品）
+**AI/ML**: MediaPipe / LightGBM / Pose Estimation / DTW
 
-### 📊 Excel業務自動化ツール
-賃金台帳・在庫管理などのExcel業務を自動化
-- **技術**: Python (openpyxl), VBA
-- **成果**: 月8時間の作業を30分に短縮
+**Backend**: Python / Node.js / WebSocket / PTY / GAS
 
-### 🌐 ECサイト・LP制作
-BASEテーマ、WordPress、ランディングページの制作
-- **技術**: HTML/CSS/JavaScript, Liquid, PHP
+**Infrastructure**: Vercel / Tailscale / WSL2 / Git
 
-## GitHub Stats
+**AI Dev Tools**: Claude Code (1,800+ sessions worth of experience)
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=ryutarou1&show_icons=true&theme=default&hide=contribs,prs&count_private=true)
+## Stats
 
-## Contact
+- Shipped 5 products to production in 4 months
+- 48 freelance projects delivered
+- 1.8B+ tokens processed through Claude Code
 
-- GitHub: [@ryutarou1](https://github.com/ryutarou1)
-- Location: Tokyo, Japan
+## Links
+
+- [FormCheck AI](https://formcheck-ai.vercel.app) — try it now, no signup needed
+- [Dance Mirror](https://dance-mirror-chi.vercel.app) — practice dances in your browser
